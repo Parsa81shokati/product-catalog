@@ -1,6 +1,6 @@
 "use client";
 
-import { Product } from "@/app/page";
+import { Product } from "@/types/product";
 import { createContext, useContext, useEffect, useState } from "react";
 
 
@@ -15,7 +15,7 @@ const FavoritesContext = createContext<FavoritesContextType | null>(null);
 export function FavoritesProvider({ children }: { children: React.ReactNode }) {
   const [favorites, setFavorites] = useState<Product[]>([]);
 
-  // load from localStorage 
+  // oad from localStorage 
   useEffect(() => {
     const saved = localStorage.getItem("favorites");
     if (saved) setFavorites(JSON.parse(saved));
