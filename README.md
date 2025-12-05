@@ -6,6 +6,7 @@ Users can view products, search and filter them, see product details, and add or
 ---
 
 ## Installation
+<<<<<<< HEAD
 
 Clone the repository:
 
@@ -13,3 +14,8 @@ Clone the repository:
 git clone `‍https://github.com/Parsa81shokati/product-catalog.git‍`
 cd product-catalog
 ```
+=======
+
+```bash
+npm install
+>>>>>>> origin/main
