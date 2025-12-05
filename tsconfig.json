@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "app/favorites/page.تsx", "app/favorites/page.jsx", "components/filteredProducts.tsx", "components/ProductCard.jsx", "components/Navbar.jsx", "components/SearchInput.jsx"  ],
   "exclude": ["node_modules"]
 }
